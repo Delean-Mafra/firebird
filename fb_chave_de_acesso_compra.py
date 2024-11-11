@@ -15,6 +15,7 @@ def ler_configuracao(caminho_arquivo):
                     configuracoes[chave] = valor
     return configuracoes
 
+print("Copyright ©2024 | Delean Mafra, todos os direitos reservados.")
 
 
 # Caminho do arquivo de configuração
