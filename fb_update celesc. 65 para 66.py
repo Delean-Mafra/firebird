@@ -15,8 +15,11 @@ def ler_configuracao(caminho_arquivo):
 
 
 
+print("Copyright ©2024 | Delean Mafra, todos os direitos reservados.")
+
+
 # Caminho do arquivo de configuração
-caminho_config = 'D:\\G3\\Cliente\\Servidor.conf'
+caminho_config = input('Digite o caminho do seu arquivo de configuração: ') #.conf
 
 # Ler configurações do arquivo
 config = ler_configuracao(caminho_config)
